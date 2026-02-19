@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML 5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse item em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="imagen flexivel">
+    </picture>
+
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="imgen flxivel">
+    </picture>
+
+    <h1>reproduzindo audios</h1>
+
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+   <audio src="midia/Avenged Sevenfold - Bat Country (Official Music Video).mp3" controls autoplay>
+        <source src="midia/Avenged Sevenfold - Bat Country (Official Music Video).mp3" type="audio/mpag">
+        <source src="midia/Avenged Sevenfold - Bat Country (Official Music Video).ogg" type="audio/ogg">
+        <source src="midia/Avenged Sevenfold - Bat Country (Official Music Video).wav" type="audio/wav">
+        <p>infelizmente seu navegador não esta conseguindo reproduzir o audio clique <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-11-aula-3-colocando-audio-no-seu-site/">aqui para escutar</a></p>
+
+   </audio>
+
+    
+</body>
+</html>
